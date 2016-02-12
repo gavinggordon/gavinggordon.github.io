@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Gavin G Gordon's Github Page</title>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<iframe id="userpage" src="https://www.gavingordon.com" style="width:100%;height:100%;" seamless="true" width="" height=""></iframe>
+		<script>
+			(function(){
+				var f = document.getElementById("userpage");
+				var h = f.clientHeight;
+				var w = f.clientWidth;
+				$(f).attr('width', w.substring( 0, h.length - 3 ) );
+				$(f).attr('height', h.substring( 0, h.length - 3 ) );
+			});
+		</script>
+	</body>
+</html>
